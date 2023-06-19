@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Allerta+Stencil&family=Anton&family=Caveat&family=Cinzel&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display+SC:ital,wght@0,400;1,900&family=Poppins:ital,wght@0,400;1,300&family=Prosto+One&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Seymour+One&family=Shadows+Into+Light&family=Sofia+Sans&family=Sofia+Sans+Extra+Condensed&family=Uchen&display=swap');
+
+h2{
+    color: rgb(35, 2, 66);
+    font-family: 'Uchen', serif;
+}
+h2 span{
+    color: rgb(92, 64, 118);
+    font-family: 'Uchen', serif;
+}
+#cartcont{
+    background-color: rgb(211, 205, 182);
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(112, 106, 80);
+  
+   
+  
+}
+#cartcont .imgcol img{
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    transition: 1s linear;
+    margin-top: 5px;
+
+    
+}
+#cartcont .imgcol{
+    height: 260px;
+    border-radius: 5px 0px 0px 5px ;
+    background-color: rgb(253, 253, 253);
+}
+#cartcont .imgcol img:hover{
+    
+transform: scale(1.04) rotate(0.5deg);
+}
+#cartcont .contentcol .productName{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: rgb(87, 34, 44);
+    font-weight: 800;
+    padding: 5px;
+    font-family: 'Playfair Display SC', serif;
+}
+#cartcont .contentcol .dis{
+    padding: 5px;
+    color:rgb(116, 113, 113); 
+    text-transform: uppercase; 
+}
+#cartcont .contentcol .price{
+    color: rgb(37, 36, 36);
+    font-size:20px;
+    font-weight: 600;
+    padding: 5px;
+}
+#cartcont .contentcol .qty{
+    padding: 5px;
+    width: 100px;
+
+}
+#cartcont .contentcol .qty #qtyslt{
+    cursor: pointer;
+}
+#cartcont .contentcol .remove{
+    font-weight: 600;
+    color: cadetblue;
+    cursor: pointer;
+}
+#cartcont .contentcol .pqty{
+    color: slategrey;
+    font-weight: 400;
+}
+
+#endcont .divs .cls1{
+    width: 50%;
+    background-color: #b3e099;
+    padding: 30px;
+}
+#endcont .divs .cls2{
+    width: 50%;
+    background-color: #ed5020;
+    /* background-color: #53ba83; */
+    /* background-image: linear-gradient(-45deg, #91adfa,#429b6b); */
+    padding: 30px;
+    
+
+}
+#endcont .divs{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    
+   
+}
+
+#endcont .divs .cls2 p{
+font-weight: 800;
+font-family: 'Uchen', serif;
+color: white;
+font-size: 23px;
+text-align: center;
+cursor: pointer;
+text-shadow:1.5px 1.5px 3px #b3e099;
+margin-top: 5px;
+}
+
+#endcont .divs .cls1 p{
+    color: #ed5020;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Uchen', serif;
+    cursor: pointer;
+}
+#endcont .divs .cls1 p span{
+    color: #f67704;
+    text-shadow:1.5px 1.5px 2px #161515;
+    font-family: 'Uchen', serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5px;
+}

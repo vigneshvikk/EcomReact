@@ -1,0 +1,39 @@
+.icon:hover{
+    transition: 0.6s linear;
+    transform: translateY(-10px);
+}
+.link{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+.link:hover{
+    color: rgb(6, 6, 6);
+}
+.cursor{
+    cursor: pointer;
+}
+.list{
+    text-decoration: none;
+    color: black;
+}
+.list div:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(159, 156, 152);
+}
+.logoutlist:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(243, 104, 88);
+}
+#dropdown-basic{
+    background: transparent;
+    border: none;
+}
+#cart{
+    background: transparent;
+    border: none; 
+}
+.username{
+    color: blue;
+}
+ 

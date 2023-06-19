@@ -1,0 +1,47 @@
+.singleimg{
+    width: 100%;
+    height: 500px;
+    padding: 0;
+}
+.shad{
+box-shadow: 6px 6px 20px black;
+border-radius: 10px;
+
+}
+#row{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.secnodcol{
+    background-color: rgb(137, 135, 135);
+   
+    border-radius: 0 100px 0 0;
+    box-shadow: -2px -2px 4px rgb(40, 40, 39);
+}
+.secnodcol h4{
+    color: rgb(255, 255, 254);
+}
+.secnodcol h2{
+    color: rgb(250, 250, 250);
+}
+.secnodcol h2 span {
+    color: brown;
+    font-weight: bold;
+}
+.name{
+    color: rgb(2, 2, 21);
+}
+
+ .imagediv img:hover {
+    cursor: pointer;
+    transition: 0.7s linear;
+    transform: scale(0.98) rotate(0.5deg);
+ }
+.btnflx .buy .buybtn{
+    background-color: rgb(233, 93, 42);
+    width: 100px;
+ }
+ .btnflx .addcart .btndiv{
+    width: 100px;
+ }
+

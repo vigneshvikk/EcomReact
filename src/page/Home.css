@@ -1,0 +1,57 @@
+.back {
+    background-image: url('../assest/back11.jpg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.imgdiv:hover{
+    cursor: pointer;
+    transition:4s  linear ;
+    transform: translate(-120%);
+}
+h3{
+    /* color: #f2e4f9; */
+    color: rgb(226, 238, 191);
+    text-shadow: 6px 4px 7px black;
+}
+.paras{
+    text-align: justify;
+    /* color: #cad1c3; */
+    color: rgb(254, 253, 253);
+}
+.headh2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Main .pdtimg{
+    border-radius: 5px;
+    transition: 1s linear;
+    
+}
+.Main .pdtimg:hover{
+    transform: scale(0.93) rotate(2deg);
+}
+.linkbtn{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.linkbtn:hover{
+    color: whitesmoke;
+}
+.filter{
+   overflow: scroll;
+   
+   
+}
+.Main Link{
+    text-decoration: none;
+}
+#card-body 
+{  
+text-decoration: none;
+}
+#items{
+    scroll-behavior: smooth;
+}

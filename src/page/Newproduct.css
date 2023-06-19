@@ -1,0 +1,18 @@
+.backclr{
+    background-color: #fab1a0;
+    box-shadow: inset 2px 2px 30px #ffeaa7;
+   padding: 20px;
+   border-radius: 7px;
+}
+h1{
+text-align: end;
+font-family: 'Times New Roman', Times, serif;
+color: #6D214F;
+text-shadow: 5px 5px 10px #9AECDB;
+}
+#h1head:hover{
+    cursor: pointer;
+    transition:4s  linear ;
+
+    transform: translate(-55%);
+}

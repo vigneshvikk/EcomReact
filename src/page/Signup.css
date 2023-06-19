@@ -1,0 +1,49 @@
+#signupbtn{
+
+    background-color: rgb(73, 153, 218);
+    border: none;
+    text-shadow: 1.5px 1.5px 2px black;
+}
+#signupbtn:hover{
+    transition: 0.7s ease-in-out;
+    background-color:rgb(54, 124, 126);
+}
+.input{
+    border-radius: 5px;
+}
+#eye{
+    position: absolute;
+right: 2%;
+padding: 5px;
+cursor: pointer;
+}
+
+#exampleForm.ControlInput4 .input{
+    border-radius: 5px;
+}
+.para{
+    font-weight: 600;
+ }
+.para:hover{
+    transition: 0.5s linear;
+    color: rgb(160, 30, 30);
+ }
+ .upload{
+    font-weight: 600;
+    font-style: oblique;
+    color: rgb(122, 29, 29);
+ }
+ .picup{
+    border: 2px grey solid;
+    border-radius: 4px;
+    margin-top: 10%;
+    cursor: pointer;
+    text-align: center;
+ }
+ .text{
+    cursor: pointer;
+ }
+ .upimg{
+    max-height: 240px;
+    max-width: 250px;
+ }
